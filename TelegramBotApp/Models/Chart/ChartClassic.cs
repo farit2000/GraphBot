@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 using System.Linq;
-
+//plot graphics
 namespace TelegramBotApp.Models.Chart
 {
     public class ChartClassic
