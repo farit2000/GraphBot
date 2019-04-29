@@ -23,6 +23,7 @@ namespace TelegramBotApp.Models
 
             commandsList = new List<Command>();
             commandsList.Add(new StartCommand());
+            commandsList.Add(new GrahCommand());
             //TODO: Add more commands
 
             botClient = new TelegramBotClient(AppSettings.Key);
