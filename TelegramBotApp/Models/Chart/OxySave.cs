@@ -12,8 +12,8 @@ namespace TelegramBotApp.Models.Chart
             var stream = new MemoryStream();
             var pngExporter = new PngExporter
             {
-                Width = 600,
-                Height = 400,
+                Width = 800,
+                Height = 800,
                 Background = OxyColors.White
             };
             pngExporter.Export(plot, stream);

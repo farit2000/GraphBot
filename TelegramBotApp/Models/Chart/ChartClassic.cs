@@ -22,7 +22,7 @@ namespace TelegramBotApp.Models.Chart
                 .ToList();
             if (arr.Count % 2 == 0)
             {
-                for (var i = 0; i < arr.Count - 1; i++)
+                for (var i = 0; i < arr.Count - 1; i += 2)
                     result.Add(new Point(arr[i], arr[i + 1]));
                 return result;
             }

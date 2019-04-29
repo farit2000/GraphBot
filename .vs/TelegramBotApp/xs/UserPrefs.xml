@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{CCF86FAE-A8A5-4A8E-8AD5-F89571463227}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TelegramBotApp/Models/Chart/ChartClassic.cs">
+    <Files>
+      <File FileName="TelegramBotApp/Models/Chart/OxySave.cs" Line="15" Column="29" />
+      <File FileName="TelegramBotApp/Models/Bot.cs" Line="25" Column="50" />
+      <File FileName="TelegramBotApp/Controllers/MessageController.cs" Line="59" Column="81" />
+      <File FileName="TelegramBotApp/Models/Chart/ChartClassic.cs" Line="25" Column="59" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TelegramBotApp" expanded="True">
+            <Node name="TelegramBotApp" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Chart" expanded="True">
+                  <Node name="ChartClassic.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.TelegramBotApp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
