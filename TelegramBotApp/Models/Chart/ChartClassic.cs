@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 using System.Linq;
-//plot graphics
 namespace TelegramBotApp.Models.Chart
 {
     public class ChartClassic
@@ -22,7 +21,7 @@ namespace TelegramBotApp.Models.Chart
                 .ToList();
             if (arr.Count % 2 == 0)
             {
-                for (var i = 0; i < arr.Count - 1; i =+ 2)
+                for (var i = 0; i < arr.Count - 1; i += 2)
                     result.Add(new Point(arr[i], arr[i + 1]));
                 return result;
             }

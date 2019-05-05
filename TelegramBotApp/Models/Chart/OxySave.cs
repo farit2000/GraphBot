@@ -2,7 +2,6 @@
 using System.IO;
 using OxyPlot;
 using OxyPlot.WindowsForms;
-//save graphics
 namespace TelegramBotApp.Models.Chart
 {
     public static class OxySaveExtension

@@ -7,7 +7,7 @@ using Telegram.Bot.Types;
 
 namespace TelegramBotApp.Models.Commands
 {
-    public class GrahCommand : Command
+    public class GraphCommand : Command
     {
         public override string Name => @"/plot";
 

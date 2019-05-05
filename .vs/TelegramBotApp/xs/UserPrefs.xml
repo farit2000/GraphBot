@@ -1,31 +1,26 @@
 ﻿<Properties StartupConfiguration="{CCF86FAE-A8A5-4A8E-8AD5-F89571463227}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TelegramBotApp/Models/Chart/ChartClassic.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TelegramBotApp/Controllers/MessageController.cs">
     <Files>
-      <File FileName="TelegramBotApp/Models/Commands/Command.cs" Line="1" Column="1" />
-      <File FileName="TelegramBotApp/Models/Commands/GraphCommand.cs" Line="1" Column="1" />
-      <File FileName="TelegramBotApp/Models/Commands/StartCommand.cs" Line="1" Column="1" />
-      <File FileName="TelegramBotApp/Models/AppSetings.cs" Line="1" Column="1" />
-      <File FileName="TelegramBotApp/Controllers/HomeController.cs" Line="1" Column="1" />
-      <File FileName="TelegramBotApp/Controllers/MessageController.cs" Line="52" Column="10" />
-      <File FileName="TelegramBotApp/Models/Bot.cs" Line="26" Column="49" />
-      <File FileName="TelegramBotApp/Models/Chart/ChartClassic.cs" Line="25" Column="57" />
-      <File FileName="TelegramBotApp/Models/Chart/OxySave.cs" Line="11" Column="7" />
+      <File FileName="TelegramBotApp/Models/Chart/ChartClassic.cs" Line="26" Column="31" />
+      <File FileName="TelegramBotApp/Controllers/MessageController.cs" Line="58" Column="50" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TelegramBotApp" expanded="True">
             <Node name="TelegramBotApp" expanded="True">
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="MessageController.cs" selected="True" />
+              </Node>
               <Node name="Models" expanded="True">
-                <Node name="Chart" expanded="True">
-                  <Node name="ChartClassic.cs" selected="True" />
-                </Node>
-                <Node name="Commands" expanded="True" />
+                <Node name="Chart" expanded="True" />
               </Node>
             </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
