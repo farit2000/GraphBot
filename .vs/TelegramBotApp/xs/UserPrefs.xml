@@ -1,26 +1,33 @@
 ﻿<Properties StartupConfiguration="{CCF86FAE-A8A5-4A8E-8AD5-F89571463227}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TelegramBotApp/Controllers/MessageController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TelegramBotApp/Startup.cs">
     <Files>
-      <File FileName="TelegramBotApp/Models/Chart/ChartClassic.cs" Line="26" Column="31" />
-      <File FileName="TelegramBotApp/Controllers/MessageController.cs" Line="58" Column="50" />
+      <File FileName="TelegramBotApp/Models/Bot.cs" Line="17" Column="38" />
+      <File FileName="TelegramBotApp/Models/Chart/ChartClassic.cs" Line="1" Column="1" />
+      <File FileName="TelegramBotApp/Controllers/MessageController.cs" Line="37" Column="1" />
+      <File FileName="TelegramBotApp/Models/User.cs" Line="12" Column="42" />
+      <File FileName="TelegramBotApp/Program.cs" Line="17" Column="1" />
+      <File FileName="TelegramBotApp/Models/AppSetings.cs" Line="7" Column="88" />
+      <File FileName="TelegramBotApp/Models/Commands/StartCommand.cs" Line="1" Column="1" />
+      <File FileName="TelegramBotApp/Models/Commands/GraphCommand.cs" Line="1" Column="1" />
+      <File FileName="TelegramBotApp/Startup.cs" Line="68" Column="43" />
+      <File FileName="TelegramBotApp/appsettings.json" Line="9" Column="1" />
+      <File FileName="TelegramBotApp/Models/UserContext.cs" Line="11" Column="10" />
+      <File FileName="TelegramBotApp/Models/ErrorViewModel.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TelegramBotApp" expanded="True">
             <Node name="TelegramBotApp" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="MessageController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True">
                 <Node name="Chart" expanded="True" />
+                <Node name="Commands" expanded="True" />
               </Node>
+              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

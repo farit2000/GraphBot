@@ -17,6 +17,12 @@ namespace TelegramBotApp.Controllers
     [Route("api/message/update")]
     public class MessageController : Controller
     {
+        UserContext db;
+        public MessageController(UserContext context)
+        {
+            this.db = context;
+        }
+
         // GET api/values
         [HttpGet]
         public string Get()
@@ -32,7 +38,9 @@ namespace TelegramBotApp.Controllers
             var commands = Bot.Commands;
             var message = update.Message;
             var botClient = await Bot.GetBotClientAsync();
-
+            //testing DataBase
+            var user = new Models.User(botClient, true);
+            //db.Users.Add(user);
             if (message.Type == MessageType.Document)
             {
                 var file = botClient.GetFileAsync(message.Document.FileId);
